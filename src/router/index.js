@@ -23,7 +23,7 @@ import QRcodeResult from '../views/admin/carian/QRcodeResult'
 import QRcode from '../views/admin/carian/QRcode'
 const routes = [
   {
-    path: '/home',
+    path: '/',
     name: 'home',
     component: HomeView
   },
@@ -68,7 +68,7 @@ const routes = [
     component: LaporanBulanan
   },
   {
-    path: '/',
+    path: '/homeAdmin',
     name: 'HomeAdmin',
     component: HomeAdmin
   },
